@@ -1,0 +1,23 @@
+
+body{
+    padding: 6% 0% 0% 2%;
+    background-color: black;
+    color: white;
+}
+.cards{
+width: 28%;
+height: 260px;
+display: flex;
+border: 5px solid white;
+border-radius: 10px;
+overflow-x: auto;
+position: relative;
+}
+.cards > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    flex-shrink: 0;
+    position: sticky;
+    left: 0;
+}
